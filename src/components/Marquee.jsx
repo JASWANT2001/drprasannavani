@@ -1,6 +1,6 @@
 export default function Marquee() {
   return (
-    <div className="marquee" aria-hidden="true">
+    <div className="marquee marquee-standalone" aria-hidden="true">
       <div className="marquee-track">
         <span>
           Chronic Spinal Pain <i className="star">✦</i>{' '}

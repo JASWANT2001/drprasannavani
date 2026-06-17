@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <header className="hero">
       <div className="wrap hero-grid">
-        <div>
+        <div className="hero-text">
           <h1>
             Relief that <span className="italic-gold">listens.</span>
             <br />
@@ -35,6 +35,27 @@ export default function Hero() {
             <span className="bignum">8<sup>+</sup></span>
             <span className="label">National &amp; Global Awards</span>
           </div>
+        </div>
+      </div>
+
+      <div className="hero-marquee" aria-hidden="true">
+        <div className="marquee-track">
+          <span>
+            Chronic Spinal Pain <i className="star">✦</i>{' '}
+            Neuropathic Syndromes <i className="star">✦</i>{' '}
+            Cancer Pain <i className="star">✦</i>{' '}
+            CRPS <i className="star">✦</i>{' '}
+            Headache Disorders <i className="star">✦</i>{' '}
+            Image-Guided Interventions <i className="star">✦</i>
+          </span>
+          <span>
+            Chronic Spinal Pain <i className="star">✦</i>{' '}
+            Neuropathic Syndromes <i className="star">✦</i>{' '}
+            Cancer Pain <i className="star">✦</i>{' '}
+            CRPS <i className="star">✦</i>{' '}
+            Headache Disorders <i className="star">✦</i>{' '}
+            Image-Guided Interventions <i className="star">✦</i>
+          </span>
         </div>
       </div>
     </header>
