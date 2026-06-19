@@ -1,10 +1,6 @@
 const MEMBERS = [
-  { gk: 'α', code: 'ISSP',  name: 'Indian Society for the Study of Pain — Life Member' },
-  { gk: 'β', code: 'WIP',   name: 'World Institute of Pain — Certified FIPP'           },
-  { gk: 'γ', code: 'IASP',  name: 'International Association for the Study of Pain'    },
-  { gk: 'δ', code: 'IMA',   name: 'Indian Medical Association — Active Member'         },
-  { gk: 'ε', code: 'IAPC',  name: 'Indian Association of Palliative Care'              },
-  { gk: 'ζ', code: 'SPI',   name: 'Spine Society of India — Associate Member'          },
+  { gk: 'α', code: 'ISSP', name: 'Indian Society for the Study of Pain',              detail: 'Life Member' },
+  { gk: 'β', code: 'WIP',  name: 'World Institute of Pain',                           detail: 'Certified Fellow - FIPP' },
 ]
 
 export default function Memberships() {
@@ -22,10 +18,13 @@ export default function Memberships() {
 
         <div className="mem-grid">
           {MEMBERS.map(m => (
-            <div className="mem reveal" key={m.code}>
+            <div className="mem" key={m.code}>
               <span className="gk">{m.gk}</span>
-              <b>{m.code}</b>
-              <small>{m.name}</small>
+              <div className="mem-body">
+                <b className="mem-code">{m.code}</b>
+                <p className="mem-name">{m.name}</p>
+                <span className="mem-detail">{m.detail}</span>
+              </div>
             </div>
           ))}
         </div>

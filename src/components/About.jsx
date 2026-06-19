@@ -5,51 +5,48 @@ export default function About() {
         <div className="sec-head reveal">
           <span className="tag">About the Doctor</span>
           <h2>
-            A practice rooted in{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>compassion,</span>{' '}
-            guided by{' '}
-            <span className="italic" style={{ color: 'var(--ink)' }}>evidence.</span>
+            Trained at India's{' '}
+            <span className="italic" style={{ color: 'var(--rust)' }}>finest institutions,</span>{' '}
+            practised with{' '}
+            <span className="italic" style={{ color: 'var(--ink)' }}>purpose.</span>
           </h2>
         </div>
 
         <div className="about-grid">
           <div className="stat-stack reveal">
             <div className="stat-row">
-              <span className="num"><span data-count="15">0</span>+</span>
-              <span className="lbl">Years of clinical practice</span>
+              <span className="num">11<sup style={{fontSize:'.5em'}}>+</sup></span>
+              <span className="lbl">Years · Pain Medicine</span>
             </div>
             <div className="stat-row">
-              <span className="num"><span data-count="20">0</span>+</span>
-              <span className="lbl">Research papers presented</span>
+              <span className="num" style={{fontSize:'clamp(1.4rem,2.8vw,2.1rem)',letterSpacing:'-.01em',lineHeight:1.2}}>Gold<br/>Medalist</span>
+              <span className="lbl">MD Anaesthesiology</span>
             </div>
             <div className="stat-row">
-              <span className="num"><span data-count="8">0</span>+</span>
-              <span className="lbl">National &amp; international awards</span>
+              <span className="num" style={{fontSize:'clamp(1.1rem,2.2vw,1.6rem)',letterSpacing:'-.01em',lineHeight:1.25}}>AIIMS<br/>Cancer Institute</span>
+              <span className="lbl">Prior Institutions</span>
             </div>
           </div>
 
           <div className="about-text reveal">
             <p>
-              Dr. Prasanna Vani leads the interventional pain practice at JP Neuro Spine Hospital &amp;
-              Pain Management Centre, with a focus on minimally invasive, image-guided procedures and
-              long-term functional recovery.
+              Dr. Prasanna Vani V is a specialist in Pain Medicine and Anesthesiology, holding M.B.B.S. and
+              M.D. degrees with postgraduate training in critical care and pain - further credentialled as
+              C.C.E.P.C., F.I.P.M, and E.D.P.M. She trained as Senior Resident at AIIMS New Delhi and served
+              as Assistant Professor at the Cancer Institute, Adyar, before dedicating her practice
+              exclusively to interventional pain medicine.
             </p>
             <p>
-              Her clinical interests span chronic spinal pain, neuropathic pain syndromes, cancer pain,
-              and complex regional pain syndrome. She is known among patients and peers for unhurried
-              consultations, shared decision-making, and a commitment to combining procedural precision
-              with rehabilitation and lifestyle care.
-            </p>
-            <p>
-              Beyond clinical practice, Dr. Vani actively contributes to the field through research,
-              teaching, and advocacy for better pain literacy in India.
+              At JP Neuro Spine Hospital &amp; Pain Management Centre, she sees patients for chronic headache
+              disorders, spinal and neuropathic pain, cancer pain, fibromyalgia, post-surgical pain, and
+              complex conditions like CRPS and trigeminal neuralgia - using fluoroscopy, DSA-guided procedures,
+              musculoskeletal ultrasound, and neuromodulation to deliver precise, minimally invasive care.
             </p>
             <div className="specialties">
               <span>Interventional Pain</span>
-              <span>Spinal Pain</span>
-              <span>Neuropathic Pain</span>
+              <span>Spinal &amp; Neuropathic Pain</span>
               <span>Cancer Pain</span>
-              <span>CRPS</span>
+              <span>Headache Disorders</span>
             </div>
           </div>
         </div>

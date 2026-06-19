@@ -47,7 +47,7 @@ export default function App() {
       <Awards />
       <Memberships />
       <PainApp />
-      <Partner />
+      {/* <Partner /> */}
       <Centre />
       <Contact />
       <Footer />

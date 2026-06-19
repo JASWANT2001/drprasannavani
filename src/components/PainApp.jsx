@@ -2,84 +2,99 @@ export default function PainApp() {
   return (
     <section id="pain-app" className="sec-sky">
       <div className="wrap">
-        <div className="sec-head reveal">
-          <span className="tag">Pain Journal · Web App</span>
-          <h2>
-            Your pain,{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>understood</span>{' '}
-            between visits.
-          </h2>
-          <p className="sub">
-            A companion web app for patients — log daily pain scores, triggers, and medication
-            response. Walk into your next appointment with data, not guesswork.
-          </p>
-        </div>
+        <div className="app-full-grid">
 
-        <div className="app-grid">
-          <div className="reveal">
-            <div className="feature">
-              <span className="fnum">i.</span>
-              <div>
-                <b>Visual Pain Scale</b>
-                <p>
-                  Quick 1–10 logging with intensity, location markers, and quality tags — under
-                  fifteen seconds per entry.
-                </p>
+          <div className="app-left reveal">
+            <span className="tag">Headache Compass · Clinical Tool</span>
+            <h2>
+              Smarter headache{' '}
+              <span className="italic" style={{ color: 'var(--rust)' }}>diagnosis,</span>{' '}
+              built for the clinic.
+            </h2>
+            <p className="sub">
+              A dedicated web platform where doctors get their own workspace to assess, track, and
+              manage patients - turning headache consultations from guesswork into structured,
+              data-driven diagnosis.
+            </p>
+
+            <div className="app-features">
+              <div className="feature">
+                <span className="fnum">i.</span>
+                <div>
+                  <b>Doctor Workspace</b>
+                  <p>
+                    Each doctor gets a private panel to manage their own patient list, run
+                    assessments, and review history - completely separate from other providers.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="feature">
-              <span className="fnum">ii.</span>
-              <div>
-                <b>Medication Diary</b>
-                <p>
-                  Track dosage, timing, and side-effects across your prescription cycle. Spot
-                  what's working and what isn't.
-                </p>
-              </div>
-            </div>
-            <div className="feature">
-              <span className="fnum">iii.</span>
-              <div>
-                <b>Trigger Patterns</b>
-                <p>
-                  Identify activities, foods, sleep, and weather correlations over time. Patterns
-                  become visible after two weeks.
-                </p>
+              <div className="feature">
+                <span className="fnum">ii.</span>
+                <div>
+                  <b>Structured Headache Assessment</b>
+                  <p>
+                    Step through a standardised clinical questionnaire with the patient in the
+                    room. Results are logged instantly and linked to their profile.
+                  </p>
+                </div>
               </div>
             </div>
 
             <div className="app-cta">
-              <a href="#contact" className="btn btn-rust">Open Your Pain Journal →</a>
-              <a href="#contact" className="btn btn-ghost-d">Request Access</a>
+              <a href="https://drprasannavani.com/dashboard" target="_blank" rel="noreferrer" className="btn btn-rust">Open Headache Compass →</a>
             </div>
           </div>
 
-          <div className="reveal app-phone-col">
-            <div className="phone">
-              <div className="phone-screen">
-                <span className="ph-tag">Tuesday · Today</span>
-                <h3>How is your pain right now?</h3>
-                <div className="scale">
-                  <span>1</span>
-                  <span>3</span>
-                  <span>5</span>
-                  <span>7</span>
-                  <span>9</span>
+          <div className="app-right reveal">
+            <div className="device-frame">
+              {/* side buttons */}
+              <div className="device-btn-vol" />
+              <div className="device-btn-pwr" />
+              {/* screen */}
+              <div className="device-screen">
+                {/* status bar */}
+                <div className="device-status">
+                  <span>9:41</span>
+                  <div className="device-status-icons">
+                    <span>▲</span>
+                    <span>WiFi</span>
+                    <span>⬛</span>
+                  </div>
                 </div>
-                <span className="ph-tag" style={{ display: 'block', marginBottom: '12px' }}>
-                  Recent Entries
-                </span>
-                <div className="entry">
-                  <b>Lower back · Score 6</b>
-                  <small>After long sitting · Mon 8:42 PM</small>
+                {/* app content */}
+                <div className="device-content">
+                  <span className="ph-tag">Headache Compass</span>
+                  <h3 className="device-title">Dashboard</h3>
+                  <div className="hc-stat-row">
+                    <div className="hc-stat">
+                      <span className="hc-num">3</span>
+                      <span className="hc-lbl">Doctors</span>
+                    </div>
+                    <div className="hc-stat">
+                      <span className="hc-num">2</span>
+                      <span className="hc-lbl">Patients</span>
+                    </div>
+                    <div className="hc-stat">
+                      <span className="hc-num">0</span>
+                      <span className="hc-lbl">Active</span>
+                    </div>
+                  </div>
+                  <span className="ph-tag" style={{ display:'block', marginBottom:'10px' }}>My Workspace</span>
+                  <div className="entry">
+                    <b>My Patients</b>
+                    <small>View &amp; manage assigned patients</small>
+                  </div>
+                  <div className="entry">
+                    <b>Add Patient</b>
+                    <small>Start a new headache assessment</small>
+                  </div>
                 </div>
-                <div className="entry">
-                  <b>Right shoulder · Score 4</b>
-                  <small>Morning stiffness · Mon 7:10 AM</small>
-                </div>
+                {/* home indicator */}
+                <div className="device-home" />
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

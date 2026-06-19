@@ -10,7 +10,7 @@ export default function Hero() {
           </h1>
           <p className="hero-lead">
             A decade of interventional pain medicine, practised at JP Neuro Spine Hospital &amp; Pain
-            Management Centre — combining image-guided precision with the kind of unhurried,
+            Management Centre - combining image-guided precision with the kind of unhurried,
             patient-first consultation chronic pain actually needs.
           </p>
           <div className="hero-actions">
@@ -21,40 +21,47 @@ export default function Hero() {
 
         <div className="hero-visual">
           <div className="portrait-card">
-            <span className="pv">PV</span>
+            <img
+              src="https://ik.imagekit.io/glvwzrukg/JP%20Webiste/dr.prasanna%20vani%20.jpeg"
+              alt="Dr. Prasanna Vani V"
+              className="portrait-img"
+            />
           </div>
 
           <div className="float f1">
             <span className="deco">✦</span>
-            <span className="bignum">15<sup>+</sup></span>
+            <span className="bignum">11<sup>+</sup></span>
             <span className="label">Years · Pain Medicine</span>
           </div>
 
-          <div className="float f2">
-            <span className="deco">★</span>
-            <span className="bignum">8<sup>+</sup></span>
-            <span className="label">National &amp; Global Awards</span>
-          </div>
         </div>
       </div>
 
       <div className="hero-marquee" aria-hidden="true">
         <div className="marquee-track">
           <span>
-            Chronic Spinal Pain <i className="star">✦</i>{' '}
-            Neuropathic Syndromes <i className="star">✦</i>{' '}
+            Chronic Headache Disorders <i className="star">✦</i>{' '}
+            Slipped Disc &amp; Sciatica <i className="star">✦</i>{' '}
+            Neuropathic Pain <i className="star">✦</i>{' '}
             Cancer Pain <i className="star">✦</i>{' '}
-            CRPS <i className="star">✦</i>{' '}
-            Headache Disorders <i className="star">✦</i>{' '}
-            Image-Guided Interventions <i className="star">✦</i>
+            Fibromyalgia &amp; Myofascial Pain <i className="star">✦</i>{' '}
+            Trigeminal Neuralgia <i className="star">✦</i>{' '}
+            Post Herpetic Neuralgia <i className="star">✦</i>{' '}
+            Spasticity Management <i className="star">✦</i>{' '}
+            Fluoroscopy &amp; DSA Guided Procedures <i className="star">✦</i>{' '}
+            Neuromodulation &amp; Radiofrequency Ablation <i className="star">✦</i>
           </span>
           <span>
-            Chronic Spinal Pain <i className="star">✦</i>{' '}
-            Neuropathic Syndromes <i className="star">✦</i>{' '}
+            Chronic Headache Disorders <i className="star">✦</i>{' '}
+            Slipped Disc &amp; Sciatica <i className="star">✦</i>{' '}
+            Neuropathic Pain <i className="star">✦</i>{' '}
             Cancer Pain <i className="star">✦</i>{' '}
-            CRPS <i className="star">✦</i>{' '}
-            Headache Disorders <i className="star">✦</i>{' '}
-            Image-Guided Interventions <i className="star">✦</i>
+            Fibromyalgia &amp; Myofascial Pain <i className="star">✦</i>{' '}
+            Trigeminal Neuralgia <i className="star">✦</i>{' '}
+            Post Herpetic Neuralgia <i className="star">✦</i>{' '}
+            Spasticity Management <i className="star">✦</i>{' '}
+            Fluoroscopy &amp; DSA Guided Procedures <i className="star">✦</i>{' '}
+            Neuromodulation &amp; Radiofrequency Ablation <i className="star">✦</i>
           </span>
         </div>
       </div>

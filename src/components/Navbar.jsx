@@ -6,7 +6,6 @@ const NAV_ITEMS = [
   { href: '#awards',      label: 'Awards & Honours' },
   { href: '#memberships', label: 'Memberships' },
   { href: '#pain-app',    label: 'Pain App' },
-  { href: '#partner',     label: 'Partner Hospital' },
   { href: '#centre',      label: 'Pain Centre' },
 ]
 
@@ -22,7 +21,7 @@ export default function Navbar() {
   return (
     <nav id="topnav" className={scrolled ? 'scrolled' : ''}>
       <div className="nav-inner">
-        <a href="#" className="logo"><b>Dr. Prasanna Vani</b></a>
+        <a href="#" className="logo"><b>Dr. Prasanna Vani V</b></a>
         <div className="nav-links">
           {NAV_ITEMS.map(item => (
             <a key={item.href} href={item.href} className="nav-item">{item.label}</a>

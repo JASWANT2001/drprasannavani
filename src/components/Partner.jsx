@@ -15,7 +15,7 @@ export default function Partner() {
             Partner <span className="italic" style={{ color: 'var(--rust)' }}>with us.</span>
           </h2>
           <p className="sub">
-            Whether you're a hospital, primary care physician, employer, or NGO — pain care gets
+            Whether you're a hospital, primary care physician, employer, or NGO - pain care gets
             better when expertise is shared. Here's how we work together.
           </p>
         </div>
