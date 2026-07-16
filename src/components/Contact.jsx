@@ -76,12 +76,12 @@ export default function Contact() {
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">Get in Touch</span>
-          <h2>
+          <h3>
             Begin your{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>recovery</span>{' '}
+            <span className="italic" style={{ color: 'var(--ink)' }}>recovery</span>{' '}
             with a conversation.
-          </h2>
-          <p className="sub">
+          </h3>
+          <p className="sub" style={{ maxWidth: 'none', whiteSpace: 'nowrap' }}>
             Send us a note and we'll get back to you within one working day. For urgent concerns,
             please call directly.
           </p>

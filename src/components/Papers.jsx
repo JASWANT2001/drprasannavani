@@ -66,14 +66,10 @@ export default function Papers() {
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">Research &amp; Scholarship</span>
-          <h2>
-            Papers <span className="italic" style={{ color: 'var(--rust)' }}>presented</span> at
+          <h3>
+            Papers <span className="italic" style={{ color: 'var(--ink)' }}>presented</span> at
             national &amp; international forums.
-          </h2>
-          <p className="sub">
-            Peer-reviewed publications, conference presentations, and case studies in
-            interventional pain medicine and anaesthesiology.
-          </p>
+          </h3>
         </div>
 
         <div className="papers-list reveal">

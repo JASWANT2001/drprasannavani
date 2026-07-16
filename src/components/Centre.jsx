@@ -4,10 +4,10 @@ export default function Centre() {
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">The Centre</span>
-          <h2>
+          <h3>
             JP Neuro Spine Hospital &amp;{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>Pain Management Centre.</span>
-          </h2>
+            <span className="italic" style={{ color: 'var(--ink)' }}>Pain Management Centre.</span>
+          </h3>
         </div>
 
         <div className="centre-grid">

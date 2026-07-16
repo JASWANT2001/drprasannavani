@@ -4,12 +4,12 @@ export default function About() {
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">About the Doctor</span>
-          <h2>
+          <h3>
             Trained at India's{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>finest institutions,</span>{' '}
+            <span className="italic" style={{ color: 'var(--ink)' }}>finest institutions,</span>{' '}
             practised with{' '}
             <span className="italic" style={{ color: 'var(--ink)' }}>purpose.</span>
-          </h2>
+          </h3>
         </div>
 
         <div className="about-grid">
@@ -19,11 +19,11 @@ export default function About() {
               <span className="lbl">Years · Pain Medicine</span>
             </div>
             <div className="stat-row">
-              <span className="num" style={{fontSize:'clamp(1.4rem,2.8vw,2.1rem)',letterSpacing:'-.01em',lineHeight:1.2}}>Gold<br/>Medalist</span>
+              <span className="num" style={{fontSize:'clamp(1.1rem,2.2vw,1.6rem)',letterSpacing:'-.01em',lineHeight:1.2}}>Gold<br/>Medalist</span>
               <span className="lbl">MD Anaesthesiology</span>
             </div>
             <div className="stat-row">
-              <span className="num" style={{fontSize:'clamp(1.1rem,2.2vw,1.6rem)',letterSpacing:'-.01em',lineHeight:1.25}}>AIIMS<br/>Cancer Institute</span>
+              <span className="num" style={{fontSize:'clamp(0.9rem,1.8vw,1.3rem)',letterSpacing:'-.01em',lineHeight:1.25}}>AIIMS<br/>Cancer Institute</span>
               <span className="lbl">Prior Institutions</span>
             </div>
           </div>
@@ -42,12 +42,6 @@ export default function About() {
               complex conditions like CRPS and trigeminal neuralgia - using fluoroscopy, DSA-guided procedures,
               musculoskeletal ultrasound, and neuromodulation to deliver precise, minimally invasive care.
             </p>
-            <div className="specialties">
-              <span>Interventional Pain</span>
-              <span>Spinal &amp; Neuropathic Pain</span>
-              <span>Cancer Pain</span>
-              <span>Headache Disorders</span>
-            </div>
           </div>
         </div>
       </div>

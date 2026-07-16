@@ -15,7 +15,7 @@ export default function Hero() {
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-gold">Book a Consultation <span>→</span></a>
-            <a href="#about"   className="btn btn-ghost-w">Meet Dr. Vani</a>
+            <a href="#about"   className="btn btn-ghost-d">Meet Dr. Vani</a>
           </div>
         </div>
 
@@ -27,13 +27,6 @@ export default function Hero() {
               className="portrait-img"
             />
           </div>
-
-          <div className="float f1">
-            <span className="deco">✦</span>
-            <span className="bignum">11<sup>+</sup></span>
-            <span className="label">Years · Pain Medicine</span>
-          </div>
-
         </div>
       </div>
 

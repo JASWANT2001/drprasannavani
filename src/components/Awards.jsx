@@ -61,30 +61,31 @@ const AWARDS = [
   },
 ]
 
+import { useRef } from 'react'
+
 export default function Awards() {
+  const scrollRef = useRef(null)
+
+  const scrollBy = dir => {
+    const el = scrollRef.current
+    if (!el) return
+    el.scrollBy({ left: dir * (el.clientWidth * 0.8), behavior: 'smooth' })
+  }
+
   return (
     <section id="awards" className="sec-sky">
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">Recognition</span>
-          <h2>
+          <h3>
             Awards &amp;{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>distinctions</span>{' '}
+            <span className="italic" style={{ color: 'var(--ink)' }}>distinctions</span>{' '}
             earned along the way.
-          </h2>
-          <p className="sub">
-            Honours that reflect a sustained commitment to clinical excellence, research, and patient
-            outcomes.
-          </p>
-        </div>
-
-        <div className="awards-scroll-hint">
-          <span className="scroll-hint-label">Scroll to explore</span>
-          <span className="scroll-hint-arrow">→</span>
+          </h3>
         </div>
 
         <div className="awards-scroll-wrap">
-          <div className="awards-scroll">
+          <div className="awards-scroll" ref={scrollRef}>
             {AWARDS.map(a => (
               <div className="award" key={a.ribbon}>
                 <span className="ribbon">{a.ribbon}</span>
@@ -94,6 +95,11 @@ export default function Awards() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="awards-nav">
+          <button type="button" className="awards-nav-btn" aria-label="Scroll left" onClick={() => scrollBy(-1)}>←</button>
+          <button type="button" className="awards-nav-btn" aria-label="Scroll right" onClick={() => scrollBy(1)}>→</button>
         </div>
       </div>
     </section>

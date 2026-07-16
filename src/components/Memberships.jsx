@@ -9,11 +9,11 @@ export default function Memberships() {
       <div className="wrap">
         <div className="sec-head reveal">
           <span className="tag">Memberships &amp; Accreditations</span>
-          <h2>
+          <h3>
             Affiliated with the{' '}
-            <span className="italic" style={{ color: 'var(--rust)' }}>societies</span>{' '}
+            <span className="italic" style={{ color: 'var(--ink)' }}>societies</span>{' '}
             shaping modern pain medicine.
-          </h2>
+          </h3>
         </div>
 
         <div className="mem-grid">

@@ -12,7 +12,7 @@ export default function Partner() {
         <div className="sec-head reveal">
           <span className="tag">Collaboration</span>
           <h2>
-            Partner <span className="italic" style={{ color: 'var(--rust)' }}>with us.</span>
+            Partner <span className="italic" style={{ color: 'var(--ink)' }}>with us.</span>
           </h2>
           <p className="sub">
             Whether you're a hospital, primary care physician, employer, or NGO - pain care gets
