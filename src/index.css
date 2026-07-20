@@ -684,18 +684,18 @@ footer .wrap{position:relative;z-index:1}
   .treat-grid{gap:16px}
 
   /* Hero — natural, spacious top-aligned flow (image sits below CTAs) */
-  .hero{min-height:auto;padding:140px 0 0;flex-direction:column;align-items:stretch}
-  .hero .wrap.hero-grid{gap:72px}
-  .hero-marquee{display:block;margin-top:56px}
+  .hero{min-height:auto;padding:104px 0 0;flex-direction:column;align-items:stretch}
+  .hero .wrap.hero-grid{gap:40px}
+  .hero-marquee{display:block;margin-top:36px}
   .marquee-standalone{display:none}
   .hero-grid{text-align:left}
   .hero-text{display:flex;flex-direction:column;align-items:stretch}
-  .hero h1{font-size:clamp(2.6rem,12vw,3.8rem);margin-bottom:40px;line-height:1.0}
-  .hero-lead{margin-bottom:52px;max-width:100%}
-  .hero-actions{flex-direction:column;align-items:stretch;gap:16px;width:100%}
+  .hero h1{font-size:clamp(1.7rem,9.2vw,3.6rem);margin-bottom:24px;line-height:1.14;text-align:center;white-space:nowrap}
+  .hero-lead{margin-bottom:32px;max-width:100%}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:14px;width:100%}
   .hero-actions a{width:100%;justify-content:center;text-align:center;padding:16px 24px}
   /* Portrait — full, generous, centred below the buttons */
-  .hero-visual{display:flex;align-items:flex-start;justify-content:center;min-height:0;margin-top:28px}
+  .hero-visual{display:flex;align-items:flex-start;justify-content:center;min-height:0;margin-top:8px}
   .portrait-card{width:min(360px,90%);box-shadow:0 34px 70px rgba(0,0,0,.28)}
   .portrait-card::before{animation:none;inset:-12px;border-radius:266px 266px 34px 34px}
 
@@ -759,7 +759,7 @@ footer .wrap{position:relative;z-index:1}
   .treat-grid{gap:14px}
 
   .hero{padding:68px 0 0}
-  .hero h1{font-size:clamp(2.2rem,13vw,3.4rem);margin-bottom:24px}
+  .hero h1{font-size:clamp(1.5rem,9vw,2.3rem);margin-bottom:24px;white-space:nowrap;text-align:center}
   .hero-lead{font-size:.92rem;margin-bottom:32px}
 
   .stat-row{padding:12px 16px}
