@@ -25,6 +25,7 @@ export default function Navbar() {
   }, [open])
 
   return (
+    <>
     <nav id="topnav" className={scrolled ? 'scrolled' : ''}>
       <div className="nav-inner">
         <a href="#" className="logo">
@@ -48,25 +49,29 @@ export default function Navbar() {
           <span /><span /><span />
         </button>
       </div>
-
-      <div className={`mob-overlay ${open ? 'show' : ''}`} onClick={() => setOpen(false)} />
-
-      <aside className={`mob-sidebar ${open ? 'open' : ''}`}>
-        <div className="mob-side-head">
-          <div className="logo">
-            <b>Dr. Prasanna Vani V</b>
-            <span className="logo-sub">Neuro Physician</span>
-          </div>
-        </div>
-        <nav className="mob-side-links">
-          {NAV_ITEMS.map(item => (
-            <a key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</a>
-          ))}
-        </nav>
-        <a href="#contact" className="cta-nav mob-side-cta" onClick={() => setOpen(false)}>
-          Book Consultation
-        </a>
-      </aside>
     </nav>
+
+    <div className={`mob-overlay ${open ? 'show' : ''}`} onClick={() => setOpen(false)} />
+
+    <aside className={`mob-sidebar ${open ? 'open' : ''}`}>
+      <div className="mob-side-head">
+        <div className="logo">
+          <b>Dr. Prasanna Vani V</b>
+          <span className="logo-sub">Neuro Physician</span>
+        </div>
+        <button className="mob-side-close" aria-label="Close menu" onClick={() => setOpen(false)}>
+          <span /><span />
+        </button>
+      </div>
+      <nav className="mob-side-links">
+        {NAV_ITEMS.map(item => (
+          <a key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</a>
+        ))}
+      </nav>
+      <a href="#contact" className="cta-nav mob-side-cta" onClick={() => setOpen(false)}>
+        Book Consultation
+      </a>
+    </aside>
+    </>
   )
 }
