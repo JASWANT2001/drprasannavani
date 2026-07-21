@@ -527,7 +527,8 @@ footer .wrap{position:relative;z-index:1}
 @media(max-width:680px){
   .wrap{padding:0 20px}
   .nav-inner{padding:12px 20px}
-  .logo{font-size:1.7rem}
+  .logo{font-size:1.25rem;gap:3px}
+  .logo-sub{font-size:.58rem;letter-spacing:.12em}
   .sec-sky{padding:46px 0}
   #papers{padding-top:6px}
   footer{padding:52px 0 26px}
@@ -675,7 +676,7 @@ footer .wrap{position:relative;z-index:1}
 /* ── Standard phones ≤480px  (layout only — typography inherits above) ── */
 @media(max-width:480px){
   .nav-inner{padding:15px 20px}
-  .logo{font-size:1.6rem}
+  .logo{font-size:1.2rem}
   .sec-sky{padding:40px 0}
   footer{padding:44px 0 22px}
   .sec-head{margin-bottom:32px}
@@ -748,7 +749,7 @@ footer .wrap{position:relative;z-index:1}
 /* ── Very small phones ≤360px  (minimal tweaks only) ── */
 @media(max-width:360px){
   .nav-inner{padding:14px 20px}
-  .logo{font-size:1.5rem}
+  .logo{font-size:1.12rem}
   .hamburger{font-size:1.6rem}
   .sec-sky{padding:34px 0}
   footer{padding:40px 0 20px}
